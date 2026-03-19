@@ -1,0 +1,7 @@
+networkx>=3.2
+pydantic>=2.5
+typer[all]>=0.12
+rich>=13.7
+requests>=2.31
+pyvis>=0.3.2
+python-dotenv>=1.0

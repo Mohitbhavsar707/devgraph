@@ -1,0 +1,26 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "devgraph"
+version     = "0.1.0"
+description = "Knowledge Graph Builder for Engineering Artifacts"
+requires-python = ">=3.11"
+
+dependencies = [
+    "networkx>=3.2",
+    "pydantic>=2.5",
+    "typer[all]>=0.12",
+    "rich>=13.7",
+    "requests>=2.31",
+    "pyvis>=0.3.2",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+devgraph = "devgraph.cli:app"
+
+[tool.setuptools.packages.find]
+where    = ["."]
+include  = ["devgraph*"]

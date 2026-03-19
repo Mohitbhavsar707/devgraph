@@ -1,0 +1,28 @@
+# ── Secrets & config ────────────────────────────────────────────────────────────
+.env
+
+# ── DevGraph generated files (local data, not code) ─────────────────────────────
+devgraph.pkl
+devgraph.html
+devgraph.graphml
+.devgraph_checkpoint.json
+
+# ── Python ───────────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# ── Mac ──────────────────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Editors ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+SETUP_GUIDE.md
