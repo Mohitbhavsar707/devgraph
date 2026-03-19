@@ -1,4 +1,4 @@
-# DevGraph 🔍
+# DevGraph 
 
 A CLI tool that ingests GitHub Issues and Pull Requests, extracts named entities and relationships using a local AI model, and builds a queryable knowledge graph — all running free on your laptop.
 
@@ -133,12 +133,6 @@ Set `DEVGRAPH_MODEL` in your `.env` file:
 ```
 DEVGRAPH_MODEL=llama3.1:8b
 ```
-
----
-
-## Full Setup Guide
-
-See [SETUP_GUIDE.md](SETUP_GUIDE.md) for a complete step-by-step walkthrough including troubleshooting.
 
 ---
 
